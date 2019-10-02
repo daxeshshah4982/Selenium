@@ -1,0 +1,254 @@
+{
+  "id": "632aac0b-caab-4527-93c7-b26f4e3ad32a",
+  "version": "2.0",
+  "name": "Safari",
+  "url": "http://www.safaricinema.com",
+  "tests": [{
+    "id": "47460002-0a1b-4203-b90a-1eeb2eb77ad7",
+    "name": "test1",
+    "commands": [{
+      "id": "1f67037a-52a9-4fd1-b403-d25bdb5420b7",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4160f8d3-8991-4f78-8b87-6f227fb9fed9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1346x718",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43f452e9-5482-4dc1-bfad-212c16f2b5d7",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//div[@id='goldframe']/a/img)[3]",
+      "targets": [
+        ["xpath=(//div[@id='goldframe']/a/img)[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3ed81e6-d53a-4022-8b20-e15534c52b81",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bonline",
+      "targets": [
+        ["css=.bonline", "css:finder"],
+        ["xpath=//a[contains(text(),'Book Online')]", "xpath:link"],
+        ["xpath=//div[@id='synopsis_text']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'book-tickets.aspx?MMovie=386')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77910049-a55e-4699-a5b6-e01ae57a31b3",
+      "comment": "",
+      "command": "click",
+      "target": "id=txt_loginemail",
+      "targets": [
+        ["id=txt_loginemail", "id"],
+        ["name=txt_loginemail", "name"],
+        ["css=#txt_loginemail", "css:finder"],
+        ["xpath=//input[@id='txt_loginemail']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[3]/div/ul/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f137bc01-225b-480e-8bd2-2844b5a06404",
+      "comment": "",
+      "command": "click",
+      "target": "id=txt_loginemail",
+      "targets": [
+        ["id=txt_loginemail", "id"],
+        ["name=txt_loginemail", "name"],
+        ["css=#txt_loginemail", "css:finder"],
+        ["xpath=//input[@id='txt_loginemail']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[3]/div/ul/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "80a7b800-e37b-45ae-9b4f-aff0b6f9fc64",
+      "comment": "",
+      "command": "click",
+      "target": "id=txt_loginemail",
+      "targets": [
+        ["id=txt_loginemail", "id"],
+        ["name=txt_loginemail", "name"],
+        ["css=#txt_loginemail", "css:finder"],
+        ["xpath=//input[@id='txt_loginemail']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[3]/div/ul/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2f95f5e-04e5-48d3-a69d-c64742c5fef7",
+      "comment": "",
+      "command": "type",
+      "target": "id=txt_loginemail",
+      "targets": [
+        ["id=txt_loginemail", "id"],
+        ["name=txt_loginemail", "name"],
+        ["css=#txt_loginemail", "css:finder"],
+        ["xpath=//input[@id='txt_loginemail']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[3]/div/ul/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": "fjafhjdfahufj@gmail.com"
+    }, {
+      "id": "b6c1941f-0cd0-4925-8455-a8ef0c0462f5",
+      "comment": "",
+      "command": "click",
+      "target": "id=txt_loginpassword",
+      "targets": [
+        ["id=txt_loginpassword", "id"],
+        ["name=txt_loginpassword", "name"],
+        ["css=#txt_loginpassword", "css:finder"],
+        ["xpath=//input[@id='txt_loginpassword']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[3]/div/ul/li/input[2]", "xpath:idRelative"],
+        ["xpath=//li/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "68a634a5-375d-41d4-adfa-66769b7ab3ca",
+      "comment": "",
+      "command": "type",
+      "target": "id=txt_loginpassword",
+      "targets": [
+        ["id=txt_loginpassword", "id"],
+        ["name=txt_loginpassword", "name"],
+        ["css=#txt_loginpassword", "css:finder"],
+        ["xpath=//input[@id='txt_loginpassword']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[3]/div/ul/li/input[2]", "xpath:idRelative"],
+        ["xpath=//li/input[2]", "xpath:position"]
+      ],
+      "value": "jkdjdhuhfhe"
+    }, {
+      "id": "63ed64f5-8795-4975-838a-49346b1df240",
+      "comment": "",
+      "command": "click",
+      "target": "id=Button1",
+      "targets": [
+        ["id=Button1", "id"],
+        ["name=Button1", "name"],
+        ["css=#Button1", "css:finder"],
+        ["xpath=//input[@id='Button1']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[3]/div/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c617e07-cdf1-4cb2-8257-87b871bf9abf",
+      "comment": "",
+      "command": "click",
+      "target": "id=txt_loginemail",
+      "targets": [
+        ["id=txt_loginemail", "id"],
+        ["name=txt_loginemail", "name"],
+        ["css=#txt_loginemail", "css:finder"],
+        ["xpath=//input[@id='txt_loginemail']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[3]/div/ul/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "626a090e-3380-47d9-bed0-08a706cbd9ba",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=txt_loginemail",
+      "targets": [
+        ["id=txt_loginemail", "id"],
+        ["name=txt_loginemail", "name"],
+        ["css=#txt_loginemail", "css:finder"],
+        ["xpath=//input[@id='txt_loginemail']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[3]/div/ul/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26e41668-9469-4989-b5d8-0c4ff9a1e278",
+      "comment": "",
+      "command": "click",
+      "target": "id=txt_loginemail",
+      "targets": [
+        ["id=txt_loginemail", "id"],
+        ["name=txt_loginemail", "name"],
+        ["css=#txt_loginemail", "css:finder"],
+        ["xpath=//input[@id='txt_loginemail']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[3]/div/ul/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfb520d2-3c43-4f3f-9145-f3400028259c",
+      "comment": "",
+      "command": "type",
+      "target": "id=txt_loginemail",
+      "targets": [
+        ["id=txt_loginemail", "id"],
+        ["name=txt_loginemail", "name"],
+        ["css=#txt_loginemail", "css:finder"],
+        ["xpath=//input[@id='txt_loginemail']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[3]/div/ul/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": "fadhfjfh1234@yaoo.com"
+    }, {
+      "id": "c4c60dbf-9897-4c78-8931-5495d44fe5fe",
+      "comment": "",
+      "command": "click",
+      "target": "id=txt_loginpassword",
+      "targets": [
+        ["id=txt_loginpassword", "id"],
+        ["name=txt_loginpassword", "name"],
+        ["css=#txt_loginpassword", "css:finder"],
+        ["xpath=//input[@id='txt_loginpassword']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[3]/div/ul/li/input[2]", "xpath:idRelative"],
+        ["xpath=//li/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3bae9b45-9bca-4d2b-b299-3fcf0388d662",
+      "comment": "",
+      "command": "type",
+      "target": "id=txt_loginpassword",
+      "targets": [
+        ["id=txt_loginpassword", "id"],
+        ["name=txt_loginpassword", "name"],
+        ["css=#txt_loginpassword", "css:finder"],
+        ["xpath=//input[@id='txt_loginpassword']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[3]/div/ul/li/input[2]", "xpath:idRelative"],
+        ["xpath=//li/input[2]", "xpath:position"]
+      ],
+      "value": "jdsahfhauhf"
+    }, {
+      "id": "75c9eaaf-fd3c-4866-9ce2-acd38fba712d",
+      "comment": "",
+      "command": "click",
+      "target": "id=Button1",
+      "targets": [
+        ["id=Button1", "id"],
+        ["name=Button1", "name"],
+        ["css=#Button1", "css:finder"],
+        ["xpath=//input[@id='Button1']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[3]/div/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "43d3f46e-957a-440b-9496-3c56bb627d8e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["47460002-0a1b-4203-b90a-1eeb2eb77ad7"]
+  }],
+  "urls": ["http://www.safaricinema.com/"],
+  "plugins": []
+}

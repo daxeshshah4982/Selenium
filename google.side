@@ -1,0 +1,549 @@
+{
+  "id": "cbfd08db-f395-4d1d-96f9-81b36682d412",
+  "version": "2.0",
+  "name": "google",
+  "url": "https://www.google.co.uk/",
+  "tests": [{
+    "id": "e022d450-80c1-4087-9110-4553e7fe2662",
+    "name": "test1",
+    "commands": [{
+      "id": "18c73acb-0746-4911-b4c0-f1f38bf37381",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.co.uk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf64cc8f-ac61-4742-b7c6-2ad3ee35a735",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "83f85ad8-f949-4598-8788-76ad85a002a7",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "bd224369-351e-4ff9-a7d6-0c67059c530b",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "sachin tendulkar"
+    }, {
+      "id": "ec6634c3-d5a7-461f-87ed-ae69e1739719",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "445fa82f-19ea-489f-977f-47f07ee7c81d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bkWMgd:nth-child(1) .ellip",
+      "targets": [
+        ["css=.bkWMgd:nth-child(1) .ellip", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/a/h3/div", "xpath:idRelative"],
+        ["xpath=//h3/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f0262ce-5073-40c2-8cdc-d00fdace765c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tocsection-1 .toctext",
+      "targets": [
+        ["css=.tocsection-1 .toctext", "css:finder"],
+        ["xpath=//div[@id='toc']/ul/li/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Early years')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ede5b705-1a2d-44ee-a0f1-f3d907fc71db",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ramakant Achrekar",
+      "targets": [
+        ["linkText=Ramakant Achrekar", "linkText"],
+        ["css=p:nth-child(14) > a:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Ramakant Achrekar')]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div/p[8]/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/Ramakant_Achrekar')]", "xpath:href"],
+        ["xpath=//p[8]/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Ramakant Achrekar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "99c999a3-03be-48c5-a9ba-4ae7442c1ffc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=British India",
+      "targets": [
+        ["linkText=British India", "linkText"],
+        ["css=.mw-redirect:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'British India')]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div/table/tbody/tr[2]/td/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/British_India')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'British India')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2a1ef454-0a40-4613-bfb4-ec231f1937e2",
+    "name": "test2",
+    "commands": [{
+      "id": "78e78c5c-aad4-46c9-94c7-85b6e839a229",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.co.uk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7009bf46-24b0-44f2-aee5-e6d0127cb4c3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "252babae-e7f7-4651-9d3b-16f355402211",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "fc70dfd7-4991-4d18-9028-42aa73808e63",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "graph theory"
+    }, {
+      "id": "e853064c-90b9-4626-84bd-280d3ab4f0a7",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "6a15a896-1ddf-4605-a247-77c290e067ee",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "83c94576-4246-4711-b953-23e211f6959e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bkWMgd > .g > div > .rc .ellip",
+      "targets": [
+        ["css=.bkWMgd > .g > div > .rc .ellip", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/a/h3/div", "xpath:idRelative"],
+        ["xpath=//h3/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f89ec17d-a076-46e1-971d-69aeb3f32872",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=head-driven phrase structure grammar",
+      "targets": [
+        ["linkText=head-driven phrase structure grammar", "linkText"],
+        ["css=p:nth-child(41) > a:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'head-driven phrase structure grammar')]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div/p[23]/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/Head-driven_phrase_structure_grammar')]", "xpath:href"],
+        ["xpath=//p[23]/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'head-driven phrase structure grammar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9f7ed75-e389-450e-b205-8263c8b4005c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=natural language processing",
+      "targets": [
+        ["linkText=natural language processing", "linkText"],
+        ["css=a:nth-child(17)", "css:finder"],
+        ["xpath=//a[contains(text(),'natural language processing')]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div/p/a[12]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/Natural_language_processing')]", "xpath:href"],
+        ["xpath=//a[12]", "xpath:position"],
+        ["xpath=//a[contains(.,'natural language processing')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e48f9194-8da3-41d5-be0d-7026bbe8c879",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=representation learning",
+      "targets": [
+        ["linkText=representation learning", "linkText"],
+        ["css=p:nth-child(16) > .mw-redirect", "css:finder"],
+        ["xpath=//a[contains(text(),'representation learning')]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div/p[10]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/Representation_learning')]", "xpath:href"],
+        ["xpath=//p[10]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'representation learning')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1eb0aa90-c45c-4338-9d93-a2e8f177c521",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Local linear embedding",
+      "targets": [
+        ["linkText=Local linear embedding", "linkText"],
+        ["css=p:nth-child(26) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Local linear embedding')]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div/p[16]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/Nonlinear_dimensionality_reduction')]", "xpath:href"],
+        ["xpath=//p[16]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "25341591-6707-458a-b75a-120c1a65aafb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.thumb:nth-child(11) .thumbimage",
+      "targets": [
+        ["css=.thumb:nth-child(11) .thumbimage", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/div[4]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[4]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ef0d2b6-87cd-43ce-88aa-886dce6b0699",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ec8b25ab-a36e-4978-87dc-dc450e3e65dc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mw-mmv-close",
+      "targets": [
+        ["css=.mw-mmv-close", "css:finder"],
+        ["xpath=//div[10]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a047aacd-6ada-4545-a323-32e1cbafebce",
+    "name": "test3",
+    "commands": [{
+      "id": "99621a52-ae0c-44a5-a413-92d608e936b4",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.co.uk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "581df076-c038-4272-96c4-4cb6b4c0d9b1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1326cc8b-243b-4a1f-a525-9fbc46b4daf4",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "c3523cfe-4736-400b-bbe8-7809f27bb5e2",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "216dcd8a-e602-43a7-add8-2303e94c7d4a",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "mera dil bhi kitna pagal hai lyrics english"
+    }, {
+      "id": "2105b430-77a7-4380-95e5-091eebd0e3c4",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "d42a034a-bac1-4a46-9b43-935ffd8f7096",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.bkWMgd:nth-child(1) .g:nth-child(1) .ellip",
+      "targets": [
+        ["css=.bkWMgd:nth-child(1) .g:nth-child(1) .ellip", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/a/h3/div", "xpath:idRelative"],
+        ["xpath=//h3/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67b25be0-32e0-40c2-afae-57e550123ca1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bkWMgd:nth-child(1) .g:nth-child(1) .ellip",
+      "targets": [
+        ["css=.bkWMgd:nth-child(1) .g:nth-child(1) .ellip", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/a/h3/div", "xpath:idRelative"],
+        ["xpath=//h3/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6ab98d0-7965-4939-a5c9-6106d559da26",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "42b8bdcd-e166-4a49-8735-2a70498227ec",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sholay",
+      "targets": [
+        ["linkText=Sholay", "linkText"],
+        ["css=#tabSuperHits tr:nth-child(5) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Sholay')]", "xpath:link"],
+        ["xpath=//div[@id='tabSuperHits']/table/tbody/tr[5]/td/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/movies/2')]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div/table/tbody/tr[5]/td/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sholay')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cde5623f-e75c-4bcd-895c-5e3fbfe8c737",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Quiz",
+      "targets": [
+        ["linkText=Quiz", "linkText"],
+        ["css=.btn:nth-child(8)", "css:finder"],
+        ["xpath=//a[contains(text(),'Quiz')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/quiz/')]", "xpath:href"],
+        ["xpath=//a[8]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3554ce1-5724-42b1-ab9c-794d04005c69",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Let's Go!",
+      "targets": [
+        ["linkText=Let's Go!", "linkText"],
+        ["css=.card:nth-child(1) .btn", "css:finder"],
+        ["xpath=//a[contains(@href, '/quiz/movies-quiz.php')]", "xpath:href"],
+        ["xpath=//div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e097aeb-c5eb-41b3-a64d-d4946f8797b0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(1) .custom-control:nth-child(9) > .custom-control-description",
+      "targets": [
+        ["css=.card:nth-child(1) .custom-control:nth-child(9) > .custom-control-description", "css:finder"],
+        ["xpath=//label[4]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'ABCD: Any Body Can Dance')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e28c10ff-28f6-46c2-9d9b-943c28a052f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(2) > .card-block > .custom-control:nth-child(7) > .custom-control-description",
+      "targets": [
+        ["css=.card:nth-child(2) > .card-block > .custom-control:nth-child(7) > .custom-control-description", "css:finder"],
+        ["xpath=//div[2]/div/label[3]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Dadagiri')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "767e06ce-038f-48fa-8722-42a16fda978d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(3) .custom-control:nth-child(5) > .custom-control-description",
+      "targets": [
+        ["css=.card:nth-child(3) .custom-control:nth-child(5) > .custom-control-description", "css:finder"],
+        ["xpath=//div[3]/div/label[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Ek Thi Daayan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccb1fe9e-72f7-4edf-a0c4-eb158a4b1bbf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(4) .custom-control:nth-child(5) > .custom-control-description",
+      "targets": [
+        ["css=.card:nth-child(4) .custom-control:nth-child(5) > .custom-control-description", "css:finder"],
+        ["xpath=//div[4]/div/label[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Border')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f2360a4-fa14-45b3-82a2-e408c20c0039",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(5) .custom-control:nth-child(5) > .custom-control-description",
+      "targets": [
+        ["css=.card:nth-child(5) .custom-control:nth-child(5) > .custom-control-description", "css:finder"],
+        ["xpath=//div[5]/div/label[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Ekka Raja Rani')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4151a01f-642b-4604-bba0-972edd130bdc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(6) .custom-control:nth-child(5) > .custom-control-description",
+      "targets": [
+        ["css=.card:nth-child(6) .custom-control:nth-child(5) > .custom-control-description", "css:finder"],
+        ["xpath=//div[6]/div/label[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Khatta Meetha')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "32a6af0a-279d-45bf-8210-29985d60a23b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(7) .custom-control:nth-child(5) > .custom-control-description",
+      "targets": [
+        ["css=.card:nth-child(7) .custom-control:nth-child(5) > .custom-control-description", "css:finder"],
+        ["xpath=//div[7]/div/label[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Gandhi My Father')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd005c04-b2b5-45f7-8219-f1cfbbd10746",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(8) .custom-control:nth-child(5) > .custom-control-description",
+      "targets": [
+        ["css=.card:nth-child(8) .custom-control:nth-child(5) > .custom-control-description", "css:finder"],
+        ["xpath=//div[8]/div/label[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Junglee')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4653906-481b-4918-b408-795532398680",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(9) .custom-control:nth-child(5) > .custom-control-description",
+      "targets": [
+        ["css=.card:nth-child(9) .custom-control:nth-child(5) > .custom-control-description", "css:finder"],
+        ["xpath=//div[9]/div/label[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Mission Kashmir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e6980bb-4d4f-40fb-8a18-f3b6843c0e58",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(10) .custom-control:nth-child(7) > .custom-control-description",
+      "targets": [
+        ["css=.card:nth-child(10) .custom-control:nth-child(7) > .custom-control-description", "css:finder"],
+        ["xpath=//div[10]/div/label[3]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Judwaa')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "57d1b5d4-0ad6-464b-8d86-b93370775ea6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary:nth-child(1)",
+      "targets": [
+        ["css=.btn-primary:nth-child(1)", "css:finder"],
+        ["xpath=//input[@value='Submit Answers']", "xpath:attributes"],
+        ["xpath=//div[11]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2ef17260-f335-4c64-87f5-db3f64b73e47",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.google.co.uk/"],
+  "plugins": []
+}

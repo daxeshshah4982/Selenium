@@ -1,0 +1,598 @@
+{
+  "id": "33645359-cd00-424e-88d4-9102a090df5f",
+  "version": "2.0",
+  "name": "greenwich uni.",
+  "url": "https://www.gre.ac.uk/#",
+  "tests": [{
+    "id": "e0a1b5c5-6064-4e2b-9850-1a060b77e1a0",
+    "name": "test1",
+    "commands": [{
+      "id": "8d5c49fe-45f6-4476-bc6e-bd3204eafd8d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.gre.ac.uk/#",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7e096179-63c1-4d56-a147-58dd0c2d5c70",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cfd86b5b-2d5c-475e-a18e-fac71be9725f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Subjects",
+      "targets": [
+        ["linkText=Subjects", "linkText"],
+        ["css=.large-horizontal > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Subjects')]", "xpath:link"],
+        ["xpath=//div[@id='responsive-menu']/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.gre.ac.uk/subjects')]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Subjects')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "175063ee-d1b4-4153-93b9-27ffed33419a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,7)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e3c0fd5-57c4-4a87-a74c-5b90067d9923",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Computer engineering and cybernetics",
+      "targets": [
+        ["linkText=Computer engineering and cybernetics", "linkText"],
+        ["css=.gre-two-columns > li:nth-child(8) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Computer engineering and cybernetics')]", "xpath:link"],
+        ["xpath=//body[@id='default']/main/div/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.gre.ac.uk/subjects/computer-engineering-and-cybernetics')]", "xpath:href"],
+        ["xpath=//main/div/ul/li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Computer engineering and cybernetics')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3d3cf5b-55a0-4638-bde1-0bc280fa027b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#undergraduate > .gre-list-item:nth-child(4) li:nth-child(1)",
+      "targets": [
+        ["css=#undergraduate > .gre-list-item:nth-child(4) li:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='undergraduate']/a[4]/ul/li", "xpath:idRelative"],
+        ["xpath=//div[2]/a[4]/ul/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "06aaf21f-e467-4eac-9d03-ee2bb6b7bffe",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,153)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fa51a1ff-07d9-495f-9a59-07025faaaee0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2260)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f887a932-2f9b-462a-8368-5ce0105c9089",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Materials for Electrical and Electronic Engineering",
+      "targets": [
+        ["linkText=Materials for Electrical and Electronic Engineering", "linkText"],
+        ["css=#course-full > ul:nth-child(9) > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Materials for Electrical and Electronic Engineering')]", "xpath:link"],
+        ["xpath=//div[@id='course-full']/ul[3]/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.gre.ac.uk/undergraduate-courses/content/ajax/courses-ajax-call/?sq_content_src=%2BdXJsPWh0dHAlM0ElMkYlMkZuZWxzb24uZ3JlLmFjLnVrJTJGcGxzJTJGY3JzZSUyRnVvZ3dlYnNpdGUucF9jcnNlSW5mbyUzRnRlcm0lM0QyMDUwMDAlMjZzdWJqJTNERUxFQyUyNmNyc2UlM0QxMDM1JTI2Y29kZSUzRCZhbGw9MQ%3D%3D')]", "xpath:href"],
+        ["xpath=//ul[3]/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Materials for Electrical and Electronic Engineering')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8491",
+      "windowTimeout": 2000
+    }, {
+      "id": "de63a454-3f04-4dcd-bedc-2e4ee96fb7d3",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8491}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f8d9f821-5db2-440a-b28b-d7046250765b",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) span",
+      "targets": [
+        ["css=li:nth-child(2) span", "css:finder"],
+        ["xpath=//body[@id='default']/main/section/div/div/div[2]/div/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Courses A - Z')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5507ca61-8bd7-436b-821b-da55a2853ef3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Science (Extended), Year 0 (LSEC, Bromley Campus)",
+      "targets": [
+        ["linkText=Science (Extended), Year 0 (LSEC, Bromley Campus)", "linkText"],
+        ["css=li:nth-child(228) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Science (Extended), Year 0 (LSEC, Bromley Campus)')]", "xpath:link"],
+        ["xpath=//body[@id='default']/main/section[2]/div/ul/li[228]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.gre.ac.uk/undergraduate-courses/engsci/science-ext-lsec-bromley-campus')]", "xpath:href"],
+        ["xpath=//li[228]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Science (Extended), Year 0 (LSEC, Bromley Campus)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bfeee86-f5a4-4919-a5d1-ac9f57fb71d9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,540)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "ed761920-0d29-4e64-96bf-36ce6f18512a",
+    "name": "test2",
+    "commands": [{
+      "id": "67639d74-08aa-42f9-8279-d752dcc81a8d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.gre.ac.uk/#",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "caa6a01a-189a-472e-8923-7b859be46bd4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5f4a361e-4eb3-47f4-935b-39723263247f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=International",
+      "targets": [
+        ["linkText=International", "linkText"],
+        ["css=.hover", "css:finder"],
+        ["xpath=//a[contains(text(),'International')]", "xpath:link"],
+        ["xpath=//div[@id='responsive-menu']/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.gre.ac.uk/international')]", "xpath:href"],
+        ["xpath=//div/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'International')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "47801ee5-fdd6-4e0e-b4c2-380015f3dbd0",
+      "comment": "",
+      "command": "click",
+      "target": "css=section:nth-child(5) > .gre-accented .gre-journey-box:nth-child(1) h4",
+      "targets": [
+        ["css=section:nth-child(5) > .gre-accented .gre-journey-box:nth-child(1) h4", "css:finder"],
+        ["xpath=//body[@id='default']/main/section[5]/section/div/div/a/div[2]/h4", "xpath:idRelative"],
+        ["xpath=//h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'Greenwich in your country')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecd4259a-3db2-4300-b907-18f8aae1cd76",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=India",
+      "targets": [
+        ["linkText=India", "linkText"],
+        ["css=.gre-country-listing:nth-child(32) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'India')]", "xpath:link"],
+        ["xpath=//body[@id='default']/main/section[2]/div/div/div/ul/li[32]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '?co=IN')]", "xpath:href"],
+        ["xpath=//li[32]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'India')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "93bc7756-bbf1-4201-bdce-a9a32dfc7d50",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(17) > a",
+      "targets": [
+        ["css=p:nth-child(17) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'English\nLanguage Requirement')]", "xpath:link"],
+        ["xpath=//div[@id='content_container_1531925']/p[10]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.gre.ac.uk/international/help-and-support/courses')]", "xpath:href"],
+        ["xpath=//p[10]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e556578-cec6-40eb-94da-3be2a909768c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Pre-Sessional English courses",
+      "targets": [
+        ["linkText=Pre-Sessional English courses", "linkText"],
+        ["css=p:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Pre-Sessional English courses')]", "xpath:link"],
+        ["xpath=//body[@id='default']/main/section[2]/div/div/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.gre.ac.uk/international/help-and-support/courses/pre-sessional')]", "xpath:href"],
+        ["xpath=//section[2]/div/div/div/p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Pre-Sessional English courses')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a810310-5b3f-466f-80d7-5a430f671e38",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=apply online",
+      "targets": [
+        ["linkText=apply online", "linkText"],
+        ["css=p:nth-child(44) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'apply online')]", "xpath:link"],
+        ["xpath=//div[@id='content_div_437207']/p[35]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.gre.ac.uk/study/apply/international')]", "xpath:href"],
+        ["xpath=//p[35]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'apply online')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a5ae474-8a66-4bb9-baea-5df73c819587",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gre-list-group > li:nth-child(1) > a",
+      "targets": [
+        ["css=.gre-list-group > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//body[@id='default']/main/section[2]/div/div/div[2]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.gre.ac.uk/study')])[2]", "xpath:href"],
+        ["xpath=//section[2]/div/div/div[2]/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "20a50384-205b-4874-98e1-e51925bec2df",
+    "name": "test3",
+    "commands": [{
+      "id": "2318280f-0ecf-4829-be1e-9e527875f2e1",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.gre.ac.uk/#",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8144c882-1825-4c0e-a8a7-51f5dc9221f2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff650be7-62d8-4199-a860-4c53f1d523ce",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Subjects",
+      "targets": [
+        ["linkText=Subjects", "linkText"],
+        ["css=.large-horizontal > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Subjects')]", "xpath:link"],
+        ["xpath=//div[@id='responsive-menu']/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.gre.ac.uk/subjects')]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Subjects')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "43984501-ad03-4945-bf4d-c729b695c76e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Subjects",
+      "targets": [
+        ["linkText=Subjects", "linkText"],
+        ["css=.large-horizontal > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Subjects')]", "xpath:link"],
+        ["xpath=//div[@id='responsive-menu']/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.gre.ac.uk/subjects')]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Subjects')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0d90dae-4783-4615-92c4-3422126b1911",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Drama",
+      "targets": [
+        ["linkText=Drama", "linkText"],
+        ["css=li:nth-child(14) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Drama')]", "xpath:link"],
+        ["xpath=//body[@id='default']/main/div/ul/li[14]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.gre.ac.uk/subjects/drama')]", "xpath:href"],
+        ["xpath=//li[14]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Drama')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "96065aa0-a2f9-4966-a958-229b3c29729f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,540)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a0d707a-9581-46a3-80f6-9fc132d83ae7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1012)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b3b11cd8-a81e-4330-85d5-500ca428535f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gre-list-item:nth-child(3) > h4",
+      "targets": [
+        ["css=.gre-list-item:nth-child(3) > h4", "css:finder"],
+        ["xpath=//div[@id='gre-programmes-listing0']/a[3]/h4", "xpath:idRelative"],
+        ["xpath=//a[3]/h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'Professional Dance and Musical Theatre, BA Hons')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6653e61d-1959-4203-ae41-863bae0334c9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,540)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee9bf0cc-27be-472a-8909-e1b57a549f0c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Literature, Language & Theatre",
+      "targets": [
+        ["linkText=Literature, Language & Theatre", "linkText"],
+        ["css=.prog-department a", "css:finder"],
+        ["xpath=//a[contains(text(),'Literature, Language & Theatre')]", "xpath:link"],
+        ["xpath=//body[@id='default']/main/section[5]/div/div/div/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ach/al')]", "xpath:href"],
+        ["xpath=//section[5]/div/div/div/div/p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Literature, Language & Theatre')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4471",
+      "windowTimeout": 2000
+    }, {
+      "id": "4e987e1e-16f3-4ca2-9587-f14e11c66a81",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4471}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f337f9a-0e89-4b10-b536-490fb8872ad7",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\31 574599 h4",
+      "targets": [
+        ["css=#\\31 574599 h4", "css:finder"],
+        ["xpath=//div[@id='1574599']/a/article/div[2]/div/h4", "xpath:idRelative"],
+        ["xpath=//h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'Our programmes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "872b8e51-c07e-43eb-beeb-9e61b1dc7522",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=International",
+      "targets": [
+        ["linkText=International", "linkText"],
+        ["css=.dropdown > .nav_main_students", "css:finder"],
+        ["xpath=//a[contains(text(),'International')]", "xpath:link"],
+        ["xpath=//div[@id='desktop-nav']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.gre.ac.uk/international')]", "xpath:href"],
+        ["xpath=//div[3]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'International')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5f5780d-5136-435b-a09d-af135c2aa303",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Study here",
+      "targets": [
+        ["linkText=Study here", "linkText"],
+        ["css=.is-dropdown-submenu-parent:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Study here')]", "xpath:link"],
+        ["xpath=//div[@id='responsive-menu']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.gre.ac.uk/study')]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Study here')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9dedf8f-9ef9-4f18-b5f9-9349586344da",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Study here",
+      "targets": [
+        ["linkText=Study here", "linkText"],
+        ["css=.is-dropdown-submenu-parent:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Study here')]", "xpath:link"],
+        ["xpath=//div[@id='responsive-menu']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.gre.ac.uk/study')]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Study here')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd8a2aa0-e170-42b7-b8ff-7b5cec83ea6a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Study here",
+      "targets": [
+        ["linkText=Study here", "linkText"],
+        ["css=.hover", "css:finder"],
+        ["xpath=//a[contains(text(),'Study here')]", "xpath:link"],
+        ["xpath=//div[@id='responsive-menu']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.gre.ac.uk/study')]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Study here')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eda4d24d-8e65-4da6-85bb-b8cd60bdc90e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fees & finance",
+      "targets": [
+        ["linkText=Fees & finance", "linkText"],
+        ["css=#study-menu > .is-submenu-item:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Fees & finance')]", "xpath:link"],
+        ["xpath=//ul[@id='study-menu']/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.gre.ac.uk/finance')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Fees & finance')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a724e8d4-3a74-46f4-a36a-610702415ded",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,739)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "846cee21-74dc-4364-b2ec-415b7fde93be",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Freedom of Information",
+      "targets": [
+        ["linkText=Freedom of Information", "linkText"],
+        ["css=.gre-footer-section:nth-child(2) li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Freedom of Information')]", "xpath:link"],
+        ["xpath=//body[@id='default']/footer/section/div/div/div[2]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.gre.ac.uk/about-us/governance/information-compliance/making-requests-for-information/foi-publication-scheme')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Freedom of Information')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "15741318-c911-4507-b377-a4c12fa230da",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hierarchy:nth-child(7) > ul > li:nth-child(2) span",
+      "targets": [
+        ["css=.hierarchy:nth-child(7) > ul > li:nth-child(2) span", "css:finder"],
+        ["xpath=//body[@id='default']/main/section[2]/div/div/div[2]/div/ul/li[7]/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[7]/ul/li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Committees')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e6ba059-d713-4fa9-92da-da33bf884835",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Risk Management",
+      "targets": [
+        ["linkText=Risk Management", "linkText"],
+        ["css=.hierarchy li:nth-child(3) > a", "css:finder"],
+        ["xpath=//body[@id='default']/main/section[2]/div/div/div[2]/div/ul/li[7]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.gre.ac.uk/about-us/governance/risk-management')]", "xpath:href"],
+        ["xpath=//li[7]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Risk Management')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e9c5c68-d534-41b7-9e98-da8497fac8a8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Committee Map",
+      "targets": [
+        ["linkText=Committee Map", "linkText"],
+        ["css=p:nth-child(11) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Committee Map')]", "xpath:link"],
+        ["xpath=//div[@id='content_div_408356']/p[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://docs.gre.ac.uk/rep/vco/governing-body-and-committees-map')]", "xpath:href"],
+        ["xpath=//p[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Committee Map ')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4914",
+      "windowTimeout": 2000
+    }, {
+      "id": "4af98425-c161-459b-a135-072f36c55310",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4914}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae935e46-abb2-4d93-8629-4ce6aa56f17f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Business & Enterprise",
+      "targets": [
+        ["linkText=Business & Enterprise", "linkText"],
+        ["css=.hover", "css:finder"],
+        ["xpath=//a[contains(text(),'Business & Enterprise')]", "xpath:link"],
+        ["xpath=//div[@id='responsive-menu']/div/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//enterprise.gre.ac.uk')]", "xpath:href"],
+        ["xpath=//div/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Business & Enterprise')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf87318b-4994-40b8-8a58-06d9ba74ddbe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gre-journey-box:nth-child(2) h4",
+      "targets": [
+        ["css=.gre-journey-box:nth-child(2) h4", "css:finder"],
+        ["xpath=//body[@id='default']/main/section[2]/section/div/div/a[2]/div[2]/h4", "xpath:idRelative"],
+        ["xpath=//a[2]/div[2]/h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'Develop your talent')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f263c5a-c21c-4105-8fc8-4b57d54c6e6f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,540)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "17d40370-4187-4b8c-9318-bc183e7a3cb4",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(6) span",
+      "targets": [
+        ["css=li:nth-child(6) span", "css:finder"],
+        ["xpath=//body[@id='default']/main/section[2]/div/div/div[2]/div/ul/li[6]/a/span", "xpath:idRelative"],
+        ["xpath=//li[6]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Find a venue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e3facc3b-1abe-4ba7-8fb3-50380b56ef9a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://shreekrishnavadapav.co.uk/", "https://www.espncricinfo.com/", "https://www.gre.ac.uk/#"],
+  "plugins": []
+}
